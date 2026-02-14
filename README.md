@@ -1,6 +1,6 @@
-# 🎨 Prashant Koirala Web Development Portfolio - Complete Documentation
+# 🎨 Tanish Bhandari - Portfolio Website
 
-Welcome to the comprehensive documentation for Prashant Koirala's Portfolio - a cutting-edge, award-worthy web development portfolio that showcases the intersection of stunning design and robust development. This project represents a masterclass in modern web development, featuring seamless animations, responsive design, and an immersive user experience that draws inspiration from Awwwards-winning websites.
+Welcome to the comprehensive documentation for Tanish Bhandari's Portfolio - a cutting-edge, modern web development portfolio featuring seamless animations, responsive design, and an immersive user experience inspired by Awwwards-winning websites.
 
 ## 📋 Table of Contents
 - [Project Overview](#project-overview)
@@ -15,12 +15,10 @@ Welcome to the comprehensive documentation for Prashant Koirala's Portfolio - a 
 - [Performance Optimizations](#performance-optimizations)
 - [Browser Compatibility](#browser-compatibility)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## 🎯 Project Overview
-This portfolio is more than just a personal website - it's a carefully crafted digital experience that demonstrates advanced web development techniques. The project showcases:
+This portfolio showcases my work as a Computer Science student at Scaler School of Technology, Bengaluru. It demonstrates advanced web development techniques including:
 
 - Award-worthy design principles inspired by Awwwards-winning sites
 - Seamless page transitions using GSAP animations
@@ -28,13 +26,10 @@ This portfolio is more than just a personal website - it's a carefully crafted d
 - Mobile-first responsive design with breakpoints at 1000px
 - Performance-optimized assets with lazy loading and efficient caching
 - Modern development workflow using Vite for fast development and building
-
-The portfolio serves as both a personal showcase and a testament to modern web development capabilities, featuring smooth animations, engaging interactions, and a cohesive visual identity throughout.
+- Peach (#FFDAB9) themed color palette for a warm, elegant aesthetic
 
 ## 🚀 Live Demo
-🌐 [View Live Portfolio](https://web-development-portfolio-blond.vercel.app/)
-
-Experience the portfolio in its full glory with all animations and interactions. The live version is deployed on Vercel with global CDN distribution for optimal performance worldwide.
+🌐 [View Live Portfolio](https://github.com/tanishbhandari11t/Portfolio)
 
 ## ✨ Features
 
@@ -44,23 +39,21 @@ Experience the portfolio in its full glory with all animations and interactions.
 - **Responsive Design**: Optimized for all devices from mobile to desktop
 - **Interactive Navigation**: Elegant slide-in menu with smooth animations
 - **Contact Form**: Professional contact form with validation and success states
-- **Project Showcase**: Interactive portfolio gallery with hover effects
+- **Project Showcase**: Interactive portfolio gallery with hover effects and 3D card animations
 - **Performance Monitoring**: Built-in performance optimizations and lazy loading
 
+### Featured Projects
+- **Interactive World Map** - Full-stack web app with interactive country details
+- **AuraPad** - Real-time collaborative code editor with chat
+- **Timer Buddy** - Focus timer with multiple modes and themes
+- **Personal Diary** - Private journaling web app with dark/light mode
+- **3D Mapping** - 3D visualization and mapping project
+
 ### Advanced Features
-- **Custom Cursor Effects**: Subtle cursor interactions throughout the site
 - **Parallax Scrolling**: Multi-layer parallax effects for depth
 - **Image Preloading**: Intelligent image preloading for smooth transitions
 - **Animation Sequencing**: Complex animation timelines synchronized with user interactions
 - **Mobile-First Animations**: Touch-friendly animations optimized for mobile devices
-- **Accessibility Features**: WCAG 2.1 compliant with keyboard navigation support
-
-### Technical Features
-- **Modern Build System**: Vite-based development with hot module replacement
-- **Asset Optimization**: Automatic image optimization and compression
-- **Code Splitting**: Efficient JavaScript code splitting for faster load times
-- **SEO Optimization**: Meta tags, structured data, and semantic HTML
-- **Progressive Enhancement**: Graceful degradation for older browsers
 
 ## 🛠 Technologies Used
 
@@ -84,308 +77,196 @@ Experience the portfolio in its full glory with all animations and interactions.
 ### Development Tools
 - **Node.js**: JavaScript runtime for development tools
 - **npm**: Package manager for dependencies
-- **ESLint**: Code linting for consistent code quality
-- **Prettier**: Code formatting for consistent style
+- **Git**: Version control
 
 ### Deployment & Hosting
 - **Vercel**: Global edge network deployment
 - **GitHub**: Version control and collaboration
-- **Custom Domain**: Professional domain with SSL certificate
 
 ## 📁 Project Structure
 ```
-portfolio/
-├── src/
-│   ├── assets/              # Images, fonts, and other static assets
-│   ├── components/          # Reusable UI components
-│   ├── pages/               # Page-specific components and logic
-│   ├── styles/              # CSS and SCSS files
-│   ├── scripts/             # JavaScript utilities and animations
-│   └── index.html           # Main HTML entry point
-├── dist/                    # Production build output
-├── public/                  # Static assets served directly
+newportfolio/
+├── css/                     # Stylesheets
+│   ├── globals.css          # CSS variables & global styles
+│   ├── home.css             # Homepage styles
+│   ├── about.css            # About section styles
+│   ├── menu.css             # Navigation menu styles
+│   ├── contact.css          # Contact page styles
+│   ├── footer.css           # Footer styles
+│   ├── fonts.css            # Custom font declarations
+│   ├── transition.css       # Page transition styles
+│   └── work.css             # Work/projects section styles
+├── js/                      # JavaScript modules
+│   ├── hero.js              # Hero section animations
+│   ├── featured-work.js     # Featured projects animations
+│   ├── services.js          # Skills/services section
+│   ├── about.js             # About section animations
+│   ├── menu.js              # Navigation menu logic
+│   ├── footer.js            # Footer animations
+│   ├── contact.js           # Contact form handling
+│   ├── lenis-scroll.js      # Smooth scrolling
+│   └── transition.js        # Page transitions
+├── public/                  # Static assets
+│   ├── fonts/               # Custom typefaces
+│   └── images/              # All images
+│       ├── global/          # Site-wide icons & symbols
+│       ├── hero/            # Hero section images
+│       ├── services/        # Skills section images
+│       ├── services-header/ # Portrait image
+│       └── work-items/      # Project screenshots
+├── index.html               # Main homepage
+├── contact.html             # Contact page
 ├── vite.config.js           # Vite configuration
-├── package.json             # Project dependencies and scripts
-├── README.md                # Project documentation
-└── LICENSE                  # License file
+├── package.json             # Dependencies
+└── README.md                # This file
 ```
 
 ## 🚀 Installation & Setup
 
 ### Prerequisites
 - Node.js (v16 or higher)
-- npm or yarn package manager
+- npm package manager
 - Git for version control
 
 ### Local Development Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/prashantkoirala465/portfolio.git
+   git clone https://github.com/tanishbhandari11t/Portfolio.git
    ```
 
-2. Install dependencies:
+2. Navigate to project folder:
+   ```bash
+   cd Portfolio
+   ```
+
+3. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Start development server:
+4. Start development server:
    ```bash
    npm run dev
    ```
    The development server will start at `http://localhost:5173`
 
-4. Build for production:
+5. Build for production:
    ```bash
    npm run build
-   ```
-   The built files will be in the `dist/` directory
-
-5. Preview production build:
-   ```bash
-   npm run preview
    ```
 
 ### Available Scripts
 - `npm run dev` - Start development server with hot reload
 - `npm run build` - Build optimized production bundle
 - `npm run preview` - Preview production build locally
-- `npm run host` - Start development server accessible via network
 
 ## 🎨 Design System
 
-### Color Palette
-The portfolio uses a carefully curated color system defined in CSS custom properties:
-- Primary: `--color-primary: #1a1a1a`
-- Secondary: `--color-secondary: #f5f5f5`
-- Accent: `--color-accent: #ff6b6b`
-- Background: `--color-bg: #ffffff`
+### Color Palette (Peach Theme)
+The portfolio uses a warm peach-based color system defined in CSS custom properties:
+
+| Variable | Value | Role |
+|---|---|---|
+| `--bg` | `#FFDAB9` | Main background (peach) |
+| `--bg2` | `#f0c9a6` | Secondary background (darker peach) |
+| `--fg` | `#2d1810` | Foreground/text (dark brown) |
+| `--accent1` | `#e07850` | Primary accent (terracotta) |
+| `--accent2` | `#ffe8d0` | Secondary accent (light peach) |
+| `--accent3` | `#c9956b` | Tertiary accent (golden brown) |
+| `--accent4` | `#8b5e3c` | Quaternary accent (medium brown) |
 
 ### Typography System
 Three custom typefaces create the distinctive visual identity:
 
 1. **Rader** - Used for headings (h1, h2, h3)
-   - Uppercase, italic style
-   - Tight line-height (0.95) for dramatic effect
-   - Responsive sizing from 2.5rem (mobile) to 5rem (desktop)
-
 2. **Formula Narrow** - Used for body text and descriptions
-   - Clean, modern sans-serif
-   - Slightly condensed for better readability
-   - Font size: 1.25rem with 1.125 line-height
-
 3. **Supply Mono** - Used for UI elements and labels
-   - Monospace font for technical feel
-   - Uppercase for consistency
-   - Font size: 0.875rem for subtle UI text
-
-### Spacing & Layout
-- Base spacing unit: `1rem` (16px)
-- Grid system: Flexible CSS Grid and Flexbox layouts
-- Breakpoints:
-  - Mobile: `< 1000px`
-  - Desktop: `≥ 1000px`
-- Container max-width: Fluid layouts with padding
 
 ## 🎭 Animation Architecture
 
 ### Page Transitions
-The portfolio features a sophisticated page transition system using GSAP:
-1. **Entry Animation**: Multi-layer overlay reveal on page load
-2. **Exit Animation**: Sequential overlay animation on navigation
-3. **Navigation Handling**: Smart link detection for same-page vs different-page transitions
-4. **Mobile Menu Integration**: Automatic menu closing during transitions
+Multi-layer overlay reveal system using GSAP with 5 sequenced overlays.
 
 ### Scroll-Triggered Animations
 
 #### Hero Section
-- **Image Cycling**: Continuous image rotation every 250ms
+- **Image Cycling**: Continuous project image rotation every 250ms
 - **Scroll Progress**: Image transforms based on scroll position
-- **Responsive Scaling**: Dynamic scaling from 0.25 to 1 based on scroll
-- **Rotation Effects**: Subtle rotation animation (-15° to 0°)
+- **Responsive Scaling**: Dynamic scaling from 0.25 to 1
 
 #### Featured Work Section
-- **Horizontal Scrolling**: Titles move horizontally across 4x viewport width
-- **Image Cards**: 3D positioning with z-index manipulation
-- **Staggered Animations**: Sequential reveal of portfolio items
-- **Progress Indicators**: Visual feedback for scroll progress
+- **Horizontal Scrolling**: Project titles move horizontally across 4x viewport width
+- **3D Image Cards**: 10 cards with z-index manipulation and staggered animations
+- **Progress Indicators**: Visual section progress feedback
 
-#### Services Section
-- **Card Pinning**: Services cards pin during scroll for layered effect
-- **Vertical Movement**: Smooth vertical transitions between service descriptions
-- **Responsive Disabling**: Animations disabled on mobile for performance
-
-### Animation Performance
-- **Hardware Acceleration**: GPU-accelerated transforms
-- **Optimized Images**: Preloaded and cached for smooth transitions
-- **Debounced Resize**: Efficient window resize handling
-- **Scroll Throttling**: Optimized scroll event handling
+#### Services/Skills Section
+- **Card Pinning**: Skill cards pin during scroll for layered effect
+- **Vertical Movement**: Smooth transitions between descriptions
 
 ## 📱 Responsive Design
 
 ### Mobile Strategy (≤ 1000px)
-- Simplified Animations: Reduced or disabled complex animations
-- Touch-Friendly Interactions: Larger tap targets and swipe gestures
-- Optimized Typography: Reduced font sizes for mobile readability
-- Stacked Layouts: Single-column layouts for better mobile experience
+- Simplified animations for performance
+- Touch-friendly interactions
+- Single-column stacked layouts
 
 ### Desktop Enhancements (> 1000px)
-- Complex Animations: Full animation suite enabled
-- Multi-column Layouts: Grid-based layouts for optimal space usage
-- Hover Effects: Interactive hover states for enhanced engagement
-- High-Resolution Assets: Retina-ready images for crisp display
-
-### Breakpoint-Specific Styles
-- Mobile: Single-column, simplified animations
-- Desktop: Multi-column, full animation suite
+- Full animation suite enabled
+- Multi-column grid layouts
+- Interactive hover states
 
 ## ⚡ Performance Optimizations
-
-### Image Optimization
-- **JPG Format**: Image format with fallbacks
-- **Responsive Images**: `srcset` for different screen densities
-- **Lazy Loading**: Images load as needed during scroll
-- **Preloading**: Critical images preloaded for smooth transitions
-
-### JavaScript Optimization
-- **Code Splitting**: Modular JavaScript for faster initial load
-- **Tree Shaking**: Unused code elimination during build
-- **Minification**: Minified JavaScript for production
-- **Async Loading**: Non-critical scripts loaded asynchronously
-
-### CSS Optimization
-- **Critical CSS**: Inline critical styles for faster first paint
-- **Unused CSS Removal**: PurgeCSS integration for production builds
-- **Compressed Styles**: Minified CSS for smaller file sizes
-- **Font Loading**: Optimized font loading with `font-display: swap`
-
-### Build Optimization
-- **Vite Build Process**: Lightning-fast development and building
-- **Asset Hashing**: Cache-busting for static assets
-- **CDN Distribution**: Global edge caching via Vercel
+- Hardware-accelerated GPU transforms
+- Image preloading and caching
+- Debounced resize handlers
+- Code splitting with ES modules
+- Vite build optimization
 
 ## 🌐 Browser Compatibility
-
-### Supported Browsers
-- Chrome: 90+
-- Firefox: 88+
-- Safari: 14+
-- Edge: 90+
-- Mobile Safari: iOS 14+
-- Chrome Mobile: Android 10+
-
-### Fallback Strategies
-- **CSS Grid Fallback**: Flexbox fallback for older browsers
-- **JavaScript Polyfills**: Core-js for ES6+ features
-- **Font Fallbacks**: System font stack for custom font failures
-- **Image Fallbacks**: PNG/JPEG fallbacks for WebP
-
-### Progressive Enhancement
-- **Graceful Degradation**: Core functionality without JavaScript
-- **Feature Detection**: Modernizr for feature detection
-- **Accessibility**: WCAG 2.1 compliance across all browsers
+- Chrome 90+
+- Firefox 88+
+- Safari 14+
+- Edge 90+
+- Mobile Safari (iOS 14+)
+- Chrome Mobile (Android 10+)
 
 ## 🚀 Deployment
 
-### Vercel Deployment (Recommended)
-1. **Connect Repository**
-   - Link GitHub repository to Vercel
-   - Automatic deployments on push to main branch
-
-2. **Environment Configuration**
-   - No additional environment variables required
-   - Automatic SSL certificate generation
-
-3. **Custom Domain Setup**
-   - Add custom domain in Vercel dashboard
-   - Configure DNS records as instructed
-
-### Alternative Deployment Options
-- **Netlify**
-- **GitHub Pages**
-- **Traditional Hosting**
-  1. Build the project: `npm run build`
-  2. Upload `dist/` folder to your web server
-  3. Configure web server for SPA routing
-
-### Deployment Checklist
-- Build completes without errors
-- All images load correctly
-- Animations work smoothly
-- Contact form functionality verified
-- Mobile responsiveness tested
-- Performance scores verified (Lighthouse)
-- SEO meta tags configured
-- Analytics tracking implemented
-
-## 🤝 Contributing
-
-### Development Guidelines
-1. **Code Style**: Follow existing ESLint and Prettier configurations
-2. **Commit Messages**: Use conventional commit format
-3. **Branch Naming**: Use `feature/` prefix for new features
-4. **Pull Requests**: Include screenshots for UI changes
-
-### Local Development Workflow
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit changes: `git commit -m "feat: add your feature"`
-4. Push to branch: `git push origin feature/your-feature`
-5. Open a pull request
-
-### Code Review Process
-- All changes require review before merging
-- Test on multiple devices and browsers
-- Verify accessibility compliance
-- Check performance impact
-
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Vercel Deployment
+1. Connect GitHub repository to Vercel
+2. Automatic deployments on push to main branch
+3. No additional environment variables required
 
 ## 📞 Contact
 
-### Project Author
-**Prashant Koirala**
-- Portfolio: [prashantkoirala.info.np](https://prashantkoirala.info.np)
-- Email: prashantkoirala465@gmail.com
-- GitHub: [@prashantkoirala465](https://github.com/prashantkoirala465)
-- LinkedIn: [Prashant Koirala](https://linkedin.com/in/prashantkoirala)
-- Twitter: [@arkynox_](https://twitter.com/arkynox_)
+### About Me
+**Tanish Bhandari**
+- 📍 Bengaluru, Karnataka, India
+- 🎓 BSc in Data Science & Application, Scaler School of Technology (2025-2029)
+- 📧 Email: [tanishwork33@gmail.com](mailto:tanishwork33@gmail.com)
+- 💼 LinkedIn: [tanishbhandari](https://linkedin.com/in/tanishbhandari)
+- 🐙 GitHub: [@tanishbhandari11t](https://github.com/tanishbhandari11t)
 
-### Support Channels
-- **Issues**: [GitHub Issues](https://github.com/prashantkoirala465/portfolio/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/prashantkoirala465/portfolio/discussions)
-- **Email**: Direct email for urgent inquiries
+### Technical Skills
+- **Languages**: Python, Java, JavaScript, HTML, CSS
+- **Developer Tools**: Git, Docker, AWS, Azure, VS Code, IntelliJ
+- **Concepts**: OOP, System Design, REST API
 
-### Professional Services
-Available for:
-- Custom Portfolio Development
-- Animation Consulting
-- Performance Optimization
-- Design System Creation
-- Code Reviews & Audits
+### Achievements
+- Participant in Vercel Hackathon, DeepTech Event, WEB3 Event
+- Published articles on Medium focusing on AI and Technology
 
-## 🔄 Changelog
-
-### Version 1.0.0 (Current)
-- Initial portfolio release
-- Complete responsive design
-- Full animation suite
-- Contact form integration
-- Performance optimizations
-
-### Planned Features
-- Blog Section: Technical articles and case studies
-- Project Case Studies: Detailed project breakdowns
-- Dark Mode Toggle: User preference support
-- Multi-language Support: Internationalization
-- CMS Integration: Content management system
+## 📄 License
+This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgments
 - **GSAP Team**: For the incredible animation library
 - **Vercel**: For seamless deployment and hosting
-- **Design Community**: Inspiration from Awwwards and other design galleries
-- **Open Source**: All the amazing open-source tools and libraries used
+- **Prashant Koirala**: For the original portfolio template
+- **Open Source Community**: All the amazing tools and libraries used
+
+---
 
 ⭐ **If this portfolio inspires you, please give it a star on GitHub!**
 
-Built with ❤️ by Prashant Koirala
+Built with ❤️ by Tanish Bhandari
