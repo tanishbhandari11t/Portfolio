@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Create section indicators (e.g., "01", "02", ..., "05") and progress dots
     const indicatorContainer = document.querySelector(".featured-work-indicator");
     indicatorContainer.innerHTML = ""; // Clear existing content
-    for (let section = 1; section <= 5; section++) {
+    for (let section = 1; section <= 7; section++) {
       // Add section number
       const sectionNumber = document.createElement("p");
       sectionNumber.className = "mn";
@@ -60,6 +60,8 @@ document.addEventListener("DOMContentLoaded", () => {
       { y: 1000, x: 800 },
       { y: 900, x: 2200 },
       { y: 150, x: 1600 },
+      { y: 700, x: 1300 },
+      { y: 1400, x: 1800 },
     ];
     const featuredCardPosLarge = [
       { y: 800, x: 5000 },
@@ -72,6 +74,8 @@ document.addEventListener("DOMContentLoaded", () => {
       { y: 2200, x: 1300 },
       { y: 3000, x: 1950 },
       { y: 500, x: 4500 },
+      { y: 1500, x: 5500 },
+      { y: 2800, x: 4000 },
     ];
     // Select position set based on screen width
     const featuredCardPos =
@@ -84,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Create image cards dynamically
     const imagesContainer = document.querySelector(".featured-images");
     imagesContainer.innerHTML = ""; // Clear existing content
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 1; i <= 12; i++) {
       const featuredImgCard = document.createElement("div");
       featuredImgCard.className = `featured-img-card featured-img-card-${i}`;
       const img = document.createElement("img");
